@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سلامت‌یار — پیگیری سلامت و ورزش</title>
+<style>
+:root { --bg: #fff; --fg: #111; --accent: #000; --muted: #555; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0f0f0f; --fg: #f0f0f0; --accent: #fff; --muted: #999; } }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+.container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+header { text-align: center; padding: 3rem 0; }
+h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+p.lead { font-size: 1.2rem; color: var(--muted); margin-bottom: 2rem; }
+.buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.btn { background: var(--accent); color: var(--bg); padding: 1rem 1.5rem; text-decoration: none; border-radius: 6px; font-weight: bold; }
+section { margin: 3rem 0; }
+.features { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+@media (max-width: 600px) { .features { grid-template-columns: 1fr; } }
+.feat { padding: 1rem; border: 1px solid #ccc; }
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>سلامت‌یار</h1>
+<p class="lead">اپ پیگیری سلامت، ورزش و عادات سالم — کاملاً فارسی</p>
+<div class="buttons">
+<a href="#" class="btn">دانلود اندروید</a>
+<a href="#" class="btn">دانلود iOS</a>
+</div>
+</header>
+<section>
+<h2>ویژگی‌ها</h2>
+<div class="features">
+<div class="feat"><strong>ردیابی عادات</strong><p>یادآور آب، ورزش و خواب</p></div>
+<div class="feat"><strong>گزارش هفتگی</strong><p>نمودار ساده پیشرفت</p></div>
+<div class="feat"><strong>آفلاین کار</strong><p>داده‌ها روی دستگاه می‌مانند</p></div>
+<div class="feat"><strong>حریم خصوصی</strong><p>هیچ داده‌ای به سرور نمی‌رود</p></div>
+</div>
+</section>
+<footer style="text-align:center; margin-top:3rem; color:var(--muted);">
+© ۱۴۰۵ سلامت‌یار
+</footer>
+</div>
+</body>
+</html>
